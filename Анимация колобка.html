@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .sonik {
+            width: 125px;
+            animation: 4s linear 0s infinite alternate move;
+            position: absolute;
+            bottom: 100px;
+        }
+
+        @keyframes move {
+            from {
+                margin-left: 0%;
+                rotate: rotate(0deg);
+            }
+
+            to {
+                margin-left: 92%;
+                transform: rotate(1080deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img class="sonik" src="U2iT.gif">
+</body>
+
+</html>
